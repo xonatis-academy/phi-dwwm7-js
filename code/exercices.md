@@ -240,7 +240,7 @@ tab <- [23, 4, 2, 543, 34]
 Algorithme :
 
 ```
-resultat <- 0
+resultat <- 1000
 @PourChaque h @Dans tab
     @DebutBloc
     @Si h < resultat
