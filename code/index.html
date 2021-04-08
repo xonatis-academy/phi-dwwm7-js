@@ -7,11 +7,16 @@
         <div id="text-tres-canon">Coucou tout le monde</div>
 
         <script>
-            let toto = 'Coucou juste moi meme !';
-            toto = toto + ' C est bien';
+            let age = 25;
+
+            let resultat = false;
+            if (age >= 18)
+            {
+                resultat = true;
+            }
 
             let element = document.getElementById('text-tres-canon');
-            element.innerHTML = toto;
+            element.innerHTML = resultat;
         </script>
     </body>
 </html>
